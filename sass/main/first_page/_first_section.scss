@@ -1,0 +1,11 @@
+@import "../../modules/variables";
+@import "../../modules/classes";
+@import "../../modules/mixins";
+
+.parent-block {
+  @include display(flex);
+  .right-box {
+    @include size(700px, 100%, 600px);
+    @include bg-img(url(/images/nature.jpg), cover, center, no-repeat);
+  }
+}
