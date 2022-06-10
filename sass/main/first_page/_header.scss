@@ -31,6 +31,10 @@ header {
             }
             .opacity {
               opacity: 50%;
+              @include transition(all, 350ms, ease);
+              &:hover {
+                opacity: 100%;
+              }
             }
           }
         }

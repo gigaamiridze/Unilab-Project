@@ -15,3 +15,9 @@
   color: $color;
   text-transform: $transform;
 }
+
+@mixin transition($property, $duration, $timingFunction) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timingFunction;
+}

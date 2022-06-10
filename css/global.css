@@ -88,4 +88,10 @@ header .header-container .flex-box nav ul li .nav-link {
 }
 header .header-container .flex-box nav ul li .opacity {
   opacity: 50%;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+header .header-container .flex-box nav ul li .opacity:hover {
+  opacity: 100%;
 }
