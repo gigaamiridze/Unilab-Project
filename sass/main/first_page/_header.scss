@@ -1,0 +1,40 @@
+@import "../../modules/variables";
+@import "../../modules/classes";
+@import "../../modules/mixins";
+
+header {
+  background-color: $grey;
+  .header-container {
+    @include display(flex);
+    @include flex-property(space-between, center);
+    padding: 10px 20px;
+    .logo-name {
+      @include text-property(15px, $roboto, $pink, $upper);
+      font-weight: $bold;
+      line-height: 20px;
+    }
+    .flex-box {
+      @include display(flex);
+      align-items: center;
+      nav {
+        ul {
+          @include display(flex);
+          li {
+            margin-right: 25px;
+            &:last-child {
+              margin-right: 40px;
+            }
+            .nav-link {
+              @include text-property(12px, $roboto, $black, $upper);
+              font-weight: $bold;
+              line-height: 20px;
+            }
+            .opacity {
+              opacity: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
