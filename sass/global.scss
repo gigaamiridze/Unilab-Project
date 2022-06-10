@@ -1,0 +1,9 @@
+@import "./basic/reset";
+@import "./modules/variables";
+@import "./modules/classes";
+@import "./modules/mixins";
+// First page scss files
+@import "./main/first_page/header";
+@import "./main/first_page/first_section";
+@import "./main/first_page/second_section";
+@import "./main/first_page/footer";
