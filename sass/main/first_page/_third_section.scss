@@ -4,4 +4,57 @@
 
 .change-padd {
   padding: 0 0 100px 0;
+  .container {
+    .flex-block {
+      @include display(flex);
+      .left-vertical-box {
+        .image-box {
+          @include size(760px, 100%, 430px);
+          position: relative;
+          &:first-child {
+            margin-bottom: 40px;
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          h4 {
+            @include text-property(16px, $roboto, $white, $upper);
+            font-weight: $bold;
+            line-height: 20px;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+          }
+          .img-info {
+            max-width: 680px;
+            width: 100%;
+            position: absolute;
+            left: 40px;
+            bottom: 40px;
+            h3 {
+              @include text-property(24px, $roboto, $white, none);
+              font-weight: $bold;
+              line-height: 34px;
+            }
+            p {
+              @include text-property(16px, $roboto, $white, none);
+              font-weight: $regular;
+              line-height: 22px;
+              margin-bottom: 10px;
+            }
+            .time {
+              @extend %timerDiv;
+              .bx-time-five {
+                @extend %timerIcon;
+              }
+              span {
+                @extend %timeAgo;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
