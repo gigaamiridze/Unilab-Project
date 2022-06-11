@@ -2,25 +2,17 @@
 @import "../../modules/classes";
 @import "../../modules/mixins";
 
-.first-section {
-  position: relative;
-  .bg-img {
-    @include size(700px, 100%, 92vh);
-    @include bg-img(cover, center, no-repeat);
-  }
-  .container {
-    @extend %container;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    .flex-block {
-      @include display(flex);
-      @include flex-property(space-between, center);
-      .world-news-box {
+section {
+  .flex-block {
+    @include display(flex);
+    .left-box {
+      @include size(700px, 100%, 92vh);
+      @include bg-img(cover, center, no-repeat);
+      position: relative;
+      .world-news-content {
         max-width: 490px;
         width: 100%;
+        @extend %center;
         h2 {
           @include text-property(24px, $roboto, $white, $upper);
           font-weight: $bold;
@@ -63,9 +55,15 @@
           }
         }
       }
-      .more-news-box {
-        max-width: 380px;
-        width: 100%; 
+    }
+    .right-box {
+      max-width: 563px;
+      width: 100%;
+      position: relative;
+      .more-news-content {
+        max-width: 360px;
+        width: 100%;
+        @extend %center;
         .top-box {
           @include display(flex);
           justify-content: space-between;
