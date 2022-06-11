@@ -34,3 +34,9 @@
   background-position: $position;
   background-repeat: $repeat;
 }
+
+@mixin border($width, $style, $color) {
+  border-width: $width;
+  border-style: $style;
+  border-color: $color;
+}
