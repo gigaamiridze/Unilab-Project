@@ -72,17 +72,11 @@ section {
           @include display(flex);
           justify-content: space-between;
           h2 {
-            @include text-property(24px, $roboto, $black, $upper);
-            font-weight: $bold;
-            line-height: 20px;
+            @extend %title;
           }
           .icons-box {
             .arrow-icon {
-              font-size: 15px;
-              &:first-child {
-                color: #707070;
-                margin-right: 40px;
-              }
+              @extend %arrowIcon;
             }
           }
         }
@@ -110,18 +104,15 @@ section {
             p {
               @include text-property(16px, $roboto, $grey3, none);
               line-height: 25px;
+              margin-bottom: 10px;
             }
             .time {
-              @include display(flex);
-              align-items: center;
-              margin-top: 10px;
+              @extend %timerDiv;
               .bx-time-five {
-                font-size: 17px;
-                color: $grey3; 
-                margin-right: 10px;
+                @extend %timerIcon;
               }
               span {
-                @include text-property(13px, $roboto, $grey3, none);
+                @extend %timeAgo;
               }
             }
           }

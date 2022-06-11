@@ -1,0 +1,71 @@
+@import "../../modules/variables";
+@import "../../modules/classes";
+@import "../../modules/mixins";
+
+.second-section {
+  background-color: $grey;
+  padding: 40px 0;
+  .container {
+    @extend %container;
+    .horizontal-block {
+      @include display(flex);
+      @include flex-property(space-between, center);
+      margin-bottom: 30px;
+      h2 {
+        @extend %title;
+      }
+      .icons-box {
+        .arrow-icon {
+          @extend %arrowIcon;
+        }
+      }
+    }
+    .flex-block {
+      @include display(flex);
+      .image-and-info {
+        max-width: 350px;
+        width: 100%;
+        &:nth-child(2) {
+          margin: 0 20px;
+        }
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+        .white-box {
+          background-color: $white;
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px;
+          margin-top: -3px;
+          @include display(flex);
+          @include flex-property(center, center);
+          .info-box {
+            max-width: 270px;
+            width: 100%;
+            padding: 40px 0;
+            h6 {
+              @include text-property(16px, $roboto, $black, none);
+              font-weight: $bold;
+              line-height: 20px;
+            }
+            p {
+              @include text-property(13px, $roboto, $grey3, none);
+              font-weight: $regular;
+              line-height: 20px;
+              margin: 5px 0 10px 0;
+            }
+            .time {
+              @extend %timerDiv;
+              .bx-time-five {
+                @extend %timerIcon;
+              }
+              span {
+                @extend %timeAgo;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

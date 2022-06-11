@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 %container {
   max-width: 1050px;
@@ -18,4 +19,33 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+%title {
+  @include text-property(24px, $roboto, $black, $upper);
+  font-weight: $bold;
+  line-height: 20px;
+}
+
+%arrowIcon {
+  font-size: 15px;
+  &:first-child {
+    color: #707070;
+    margin-right: 40px;
+  }
+}
+
+%timerDiv {
+  @include display(flex);
+  align-items: center;
+}
+
+%timerIcon {
+  font-size: 17px;
+  color: $grey3; 
+  margin-right: 10px;
+}
+
+%timeAgo {
+  @include text-property(13px, $roboto, $grey3, none);
 }
