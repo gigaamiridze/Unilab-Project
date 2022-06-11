@@ -40,6 +40,10 @@ section {
           background-color: $pink;
           border: none;
           border-radius: 6px;
+          @include transition(all, 500ms, ease);
+          &:hover {
+            background-color: $dark-pink;
+          }
           .learn-link {
             @include text-property(11px, $roboto, $white, $upper);
             font-weight: $bold;

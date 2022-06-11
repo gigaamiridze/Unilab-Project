@@ -192,6 +192,12 @@ section .flex-block .left-box .world-news-content .learn-more {
   background-color: #FA6980;
   border: none;
   border-radius: 6px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+section .flex-block .left-box .world-news-content .learn-more:hover {
+  background-color: #ff2949;
 }
 section .flex-block .left-box .world-news-content .learn-more .learn-link {
   font-size: 11px;
