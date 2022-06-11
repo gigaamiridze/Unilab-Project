@@ -2,130 +2,129 @@
 @import "../../modules/classes";
 @import "../../modules/mixins";
 
-// .parent-block {
-//   @include display(flex);
-//   // align-items: center;
-//   .right-box {
-//     @include size(700px, 100%, 92vh);
-//     position: relative;
-//     .nature-img {
-//       width: 100%;
-//       height: 100%;
-//       object-fit: cover;
-//     }
-//     .container {
-//       max-width: 490px;
-//       width: 100%;
-//       position: absolute;
-//       top: 50%;
-//       left: 50%;
-//       transform: translate(-50%, -50%);
-//       .text-content {
-//         h2 {
-//           @include text-property(24px, $roboto, $white, $upper);
-//           font-weight: $bold;
-//           line-height: 42px;
-//           &::after {
-//             @extend %underline;
-//             background-color: $white;
-//             margin: 20px 0 30px 0;
-//           }
-//         }
-//         h4 {
-//           @include text-property(24px, $roboto, $white, none);
-//           font-weight: $bold;
-//           line-height: 34px;
-//         }
-//         p {
-//           @include text-property(16px, $roboto, $white, none);
-//           line-height: 25px;
-//           margin-bottom: 25px;
-//         }
-//         .learn-more {
-//           position: relative;
-//           width: 134px;
-//           height: 40px;
-//           background-color: $pink;
-//           border: none;
-//           border-radius: 6px;
-//           .learn-link {
-//             @include text-property(11px, $roboto, $white, $upper);
-//             font-weight: $bold;
-//             line-height: 20px;
-//             letter-spacing: 1px;
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-//             width: 100%;
-// 	          height: 100%;
-//             @include display(flex);
-//             @include flex-property(center, center);
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .left-box {
-//     .info-box {
-//       @include size(380px, 100%, 100%);
-//       .top-box {
-//         @include display(flex);
-//         justify-content: space-between;
-//         h2 {
-//           @include text-property(24px, $roboto, $black, $upper);
-//           font-weight: $bold;
-//           line-height: 20px;
-//         }
-//         .icons-box {
-//           .arrow-icon {
-//             font-size: 15px;
-//             &:first-child {
-//               color: #707070;
-//               margin-right: 40px;
-//             }
-//           }
-//         }
-//       }
-//       .underline {
-//         @extend %underline;
-//         background-color: $grey1;
-//         margin: 35px 0 35px 0;
-//       }
-//       .bottom-box {
-//         .article-box {
-//           &:first-child {
-//             margin-bottom: 40px;
-//           }
-//           h6 {
-//             @include text-property(16px, $roboto, $pink, $capit);
-//             font-weight: $bold;
-//             line-height: 20px;
-//           }
-//           h5 {
-//             @include text-property(16px, $roboto, $black, none);
-//             font-weight: $bold;
-//             line-height: 20px;
-//             margin-top: 10px;
-//           }
-//           p {
-//             @include text-property(16px, $roboto, $grey3, none);
-//             line-height: 25px;
-//           }
-//           .time {
-//             @include display(flex);
-//             align-items: center;
-//             margin-top: 10px;
-//             .bx-time-five {
-//               font-size: 17px;
-//               color: $grey3; 
-//               margin-right: 10px;
-//             }
-//             span {
-//               @include text-property(13px, $roboto, $grey3, none);
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+.first-section {
+  position: relative;
+  .bg-img {
+    @include size(700px, 100%, 92vh);
+    @include bg-img(cover, center, no-repeat);
+  }
+  .container {
+    @extend %container;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .flex-block {
+      @include display(flex);
+      @include flex-property(space-between, center);
+      .world-news-box {
+        max-width: 490px;
+        width: 100%;
+        h2 {
+          @include text-property(24px, $roboto, $white, $upper);
+          font-weight: $bold;
+          line-height: 42px;
+          &::after {
+            @extend %underline;
+            background-color: $white;
+            margin: 20px 0 30px 0;
+          }
+        }
+        h4 {
+          @include text-property(24px, $roboto, $white, none);
+          font-weight: $bold;
+          line-height: 34px;
+        }
+        p {
+          @include text-property(16px, $roboto, $white, none);
+          line-height: 25px;
+          margin-bottom: 25px;
+        }
+        .learn-more {
+          position: relative;
+          width: 134px;
+          height: 40px;
+          background-color: $pink;
+          border: none;
+          border-radius: 6px;
+          .learn-link {
+            @include text-property(11px, $roboto, $white, $upper);
+            font-weight: $bold;
+            line-height: 20px;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            @include display(flex);
+            @include flex-property(center, center);
+          }
+        }
+      }
+      .more-news-box {
+        max-width: 380px;
+        width: 100%; 
+        .top-box {
+          @include display(flex);
+          justify-content: space-between;
+          h2 {
+            @include text-property(24px, $roboto, $black, $upper);
+            font-weight: $bold;
+            line-height: 20px;
+          }
+          .icons-box {
+            .arrow-icon {
+              font-size: 15px;
+              &:first-child {
+                color: #707070;
+                margin-right: 40px;
+              }
+            }
+          }
+        }
+        .underline {
+          @extend %underline;
+          background-color: $grey1;
+          margin: 35px 0 35px 0;
+        }
+        .bottom-box {
+          .article-box {
+            &:first-child {
+              margin-bottom: 40px;
+            }
+            h6 {
+              @include text-property(16px, $roboto, $pink, $capit);
+              font-weight: $bold;
+              line-height: 20px;
+            }
+            h5 {
+              @include text-property(16px, $roboto, $black, none);
+              font-weight: $bold;
+              line-height: 20px;
+              margin-top: 10px;
+            }
+            p {
+              @include text-property(16px, $roboto, $grey3, none);
+              line-height: 25px;
+            }
+            .time {
+              @include display(flex);
+              align-items: center;
+              margin-top: 10px;
+              .bx-time-five {
+                font-size: 17px;
+                color: $grey3; 
+                margin-right: 10px;
+              }
+              span {
+                @include text-property(13px, $roboto, $grey3, none);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
