@@ -61,7 +61,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.change-padd .container .flex-block .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -85,18 +85,18 @@ section .flex-block .right-box .more-news-content, section .flex-block .left-box
   margin-right: 40px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.change-padd .container .flex-block .right-vertical-box .box div .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.change-padd .container .flex-block .right-vertical-box .box div .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -116,7 +116,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.change-padd .container .flex-block .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -140,18 +140,18 @@ section .flex-block .right-box .more-news-content, section .flex-block .left-box
   margin-right: 40px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.change-padd .container .flex-block .right-vertical-box .box div .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.change-padd .container .flex-block .right-vertical-box .box div .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -219,7 +219,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.change-padd .container .flex-block .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -243,18 +243,18 @@ section .flex-block .right-box .more-news-content, section .flex-block .left-box
   margin-right: 40px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.change-padd .container .flex-block .right-vertical-box .box div .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.change-padd .container .flex-block .right-vertical-box .box div .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -394,7 +394,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
+.change-padd .container .flex-block .right-vertical-box .box:nth-child(2), section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -418,18 +418,18 @@ section .flex-block .left-box .world-news-content, section .flex-block .right-bo
   margin-right: 40px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.change-padd .container .flex-block .right-vertical-box .box div .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.change-padd .container .flex-block .right-vertical-box .box div .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -504,7 +504,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
+.change-padd .container .flex-block .right-vertical-box .box:nth-child(2), section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -528,18 +528,18 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   margin-right: 40px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time {
+.change-padd .container .flex-block .right-vertical-box .box div .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time {
   display: flex;
   align-items: center;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five {
+.change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span {
+.change-padd .container .flex-block .right-vertical-box .box div .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -552,10 +552,12 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 .change-padd .container .flex-block {
   display: flex;
 }
+.change-padd .container .flex-block .left-vertical-box {
+  margin-right: 40px;
+}
 .change-padd .container .flex-block .left-vertical-box .image-box {
-  max-width: 760px;
+  max-width: 720px;
   width: 100%;
-  height: 430px;
   position: relative;
 }
 .change-padd .container .flex-block .left-vertical-box .image-box:first-child {
@@ -577,7 +579,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   left: 40px;
 }
 .change-padd .container .flex-block .left-vertical-box .image-box .img-info {
-  max-width: 680px;
+  max-width: 550px;
   width: 100%;
   position: absolute;
   left: 40px;
@@ -599,4 +601,49 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   font-weight: 400;
   line-height: 22px;
   margin-bottom: 10px;
+}
+.change-padd .container .flex-block .right-vertical-box {
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+}
+.change-padd .container .flex-block .right-vertical-box .box {
+  width: 100%;
+  position: absolute;
+}
+.change-padd .container .flex-block .right-vertical-box .box:first-child {
+  top: 0;
+}
+.change-padd .container .flex-block .right-vertical-box .box:last-child {
+  bottom: 0;
+}
+.change-padd .container .flex-block .right-vertical-box .box img {
+  width: 100%;
+}
+.change-padd .container .flex-block .right-vertical-box .box div h6 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #202124;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 26px;
+  padding-top: 10px;
+  margin-bottom: 7px;
+}
+.change-padd .container .flex-block .right-vertical-box .box div .time span a {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #A6ADB4;
+  text-transform: capitalize;
+  position: relative;
+}
+.change-padd .container .flex-block .right-vertical-box .box div .time span a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #A6ADB4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

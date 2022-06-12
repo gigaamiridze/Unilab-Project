@@ -8,8 +8,10 @@
     .flex-block {
       @include display(flex);
       .left-vertical-box {
+        margin-right: 40px;
         .image-box {
-          @include size(760px, 100%, 430px);
+          max-width: 720px;
+          width: 100%;
           position: relative;
           &:first-child {
             margin-bottom: 40px;
@@ -27,7 +29,7 @@
             left: 40px;
           }
           .img-info {
-            max-width: 680px;
+            max-width: 550px;
             width: 100%;
             position: absolute;
             left: 40px;
@@ -50,6 +52,53 @@
               }
               span {
                 @extend %timeAgo;
+              }
+            }
+          }
+        }
+      }
+      .right-vertical-box {
+        max-width: 320px;
+        width: 100%;
+        position: relative;
+        .box {
+          width: 100%;
+          position: absolute; 
+          &:first-child { top: 0; }
+          &:nth-child(2) { @extend %center; }
+          &:last-child { bottom: 0; }
+          img {
+            width: 100%;
+          }
+          div {
+            h6 {
+              @include text-property(16px, $roboto, $black, none);
+              font-weight: $bold;
+              line-height: 26px;
+              padding-top: 10px;
+              margin-bottom: 7px;
+            }
+            .time {
+              @extend %timerDiv;
+              .bx-time-five {
+                @extend %timerIcon;
+              }
+              span {
+                @extend %timeAgo;
+                a {
+                  @include text-property(13px, $roboto, $grey3, $capit);
+                  position: relative; 
+                  &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: $grey3; 
+                    position: absolute;
+                    right: 0;
+                    bottom: 0; 
+                  }
+                }
               }
             }
           }
