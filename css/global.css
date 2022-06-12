@@ -48,7 +48,7 @@ a {
   box-sizing: border-box;
 }
 
-.bg-color .container {
+footer .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -103,7 +103,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   text-transform: none;
 }
 
-.bg-color .container {
+footer .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -206,7 +206,7 @@ header .header-container .flex-box nav ul li .opacity:hover {
   opacity: 100%;
 }
 
-.bg-color .container {
+footer .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -381,7 +381,7 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box p {
   line-height: 25px;
   margin-bottom: 10px;
 }
-.bg-color .container {
+footer .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -491,7 +491,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   line-height: 20px;
   margin: 5px 0 10px 0;
 }
-.bg-color .container {
+footer .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -646,4 +646,187 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+footer .container, .bg-color .container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+}
+
+section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .change-padd .container .flex-block .right-vertical-box .box:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #202124;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+  font-size: 15px;
+}
+section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+  color: #707070;
+  margin-right: 40px;
+}
+
+section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block .image-and-info .white-box .info-box .time, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time, .change-padd .container .flex-block .right-vertical-box .box div .time {
+  display: flex;
+  align-items: center;
+}
+
+section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block .image-and-info .white-box .info-box .time .bx-time-five, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time .bx-time-five, .change-padd .container .flex-block .right-vertical-box .box div .time .bx-time-five {
+  font-size: 17px;
+  color: #A6ADB4;
+  margin-right: 10px;
+}
+
+section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block .image-and-info .white-box .info-box .time span, .change-padd .container .flex-block .left-vertical-box .image-box .img-info .time span, .change-padd .container .flex-block .right-vertical-box .box div .time span {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #A6ADB4;
+  text-transform: none;
+}
+
+footer {
+  background-color: #A6ADB4;
+  padding: 60px 0;
+}
+footer .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .flex-block .left-box {
+  display: flex;
+}
+footer .container .flex-block .left-box a {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+footer .container .flex-block .left-box .links-box {
+  display: flex;
+  margin-left: 60px;
+}
+footer .container .flex-block .left-box .links-box .links {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .flex-block .left-box .links-box .links:nth-child(2) {
+  margin: 0 40px;
+}
+footer .container .flex-block .left-box .links-box .links a {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #CBD0D3;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 20px;
+}
+footer .container .flex-block .right-box {
+  display: flex;
+}
+footer .container .flex-block .right-box .input-box form {
+  position: relative;
+}
+footer .container .flex-block .right-box .input-box form .input-field {
+  width: 260px;
+  height: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #EBEDED;
+  text-transform: none;
+  border-radius: 6px;
+  background-color: transparent;
+  opacity: 20%;
+  padding: 0 20px;
+  outline: none;
+  cursor: text;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+footer .container .flex-block .right-box .input-box form .input-field::placeholder {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #EBEDED;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+footer .container .flex-block .right-box .input-box form .input-field:hover, footer .container .flex-block .right-box .input-box form .input-field:focus {
+  opacity: 50%;
+}
+footer .container .flex-block .right-box .input-box form .btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+footer .container .flex-block .right-box .input-box form .btn .send-icon {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+footer .container .flex-block .right-box .input-box p {
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  color: #CBD0D3;
+  text-transform: none;
+  font-weight: 400;
+  margin-top: 17px;
+}
+footer .container .flex-block .right-box .social-icons {
+  margin-left: 120px;
+}
+footer .container .flex-block .right-box .social-icons a {
+  margin-right: 32px;
+}
+footer .container .flex-block .right-box .social-icons a:last-child {
+  margin-right: 0;
+}
+footer .container .flex-block .right-box .social-icons a .soc-icon {
+  font-size: 20px;
+  color: #FFFFFF;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+footer .container .flex-block .right-box .social-icons a .fa-instagram:hover {
+  background: -o-linear-gradient(45deg, #FEDA77 0%, #F58529 25%, #DD2A7B 50%, #8134AF 75%, #8134AF 100%);
+  background: linear-gradient(45deg, #FEDA77 0%, #F58529 25%, #DD2A7B 50%, #8134AF 75%, #8134AF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .container .flex-block .right-box .social-icons a .fa-twitter:hover {
+  color: #1DA1F2;
+}
+footer .container .flex-block .right-box .social-icons a .fa-facebook-f:hover {
+  color: #4267B2;
+}
+footer .container .flex-block .right-box .social-icons a .fa-earth-americas:hover {
+  color: #FA6980;
 }
