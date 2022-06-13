@@ -1,0 +1,38 @@
+@import "../../modules/variables";
+@import "../../modules/classes";
+@import "../../modules/mixins";
+
+.bg-color {
+  .container {
+    @extend %container;
+    .top-block {
+      @include display(flex);
+      @include flex-property(space-between, center);
+      .menu-box {
+        @include display(flex);
+        align-items: center;
+        a {
+          .home {
+            font-size: 16px;
+            margin-right: 30px; 
+          }
+        }
+        h3 {
+          @include text-property(11px, $roboto, $black, $upper);
+          font-weight: $bold;
+          &:last-child {
+            color: $grey3;
+            &::before {
+              content: "/";
+              color: $black;
+              margin: 0 15px;
+            }
+          }
+        }
+      }
+      .filter {
+        cursor: pointer;
+      }
+    }
+  }
+}
