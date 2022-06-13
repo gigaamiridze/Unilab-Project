@@ -1,0 +1,30 @@
+@import "../../modules/variables";
+@import "../../modules/classes";
+@import "../../modules/mixins";
+
+.add-padd-bott {
+  padding-bottom: 150px;
+  .container {
+    @extend %container;
+    .elephant-img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .paragraph-box {
+      max-width: 760px;
+      width: 100%;
+      p {
+        @include text-property(14px, $roboto, $grey3, none);
+        font-weight: $regular;
+        line-height: 24px;
+        &:first-child {
+          margin: 40px 0 30px 0;
+        }
+      }
+    }
+    .underline {
+      @extend %line;
+      margin-top: 40px;
+    }
+  }
+}
