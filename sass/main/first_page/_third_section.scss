@@ -2,8 +2,8 @@
 @import "../../modules/classes";
 @import "../../modules/mixins";
 
-.change-padd {
-  padding: 0 0 100px 0;
+.bottom-padd {
+  padding-bottom: 100px;
   .container {
     .flex-block {
       @include display(flex);

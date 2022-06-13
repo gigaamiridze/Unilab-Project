@@ -2,9 +2,11 @@
 @import "../../modules/classes";
 @import "../../modules/mixins";
 
+.add-padd {
+  padding: 40px 0;
+}
 .bg-color {
   background-color: $grey;
-  padding: 40px 0;
   .container {
     @extend %container;
     .horizontal-block {
