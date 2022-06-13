@@ -158,6 +158,19 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   text-transform: none;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #F6F8F9;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FA6980;
+  border-radius: 5px;
+}
+
 header {
   background-color: #F6F8F9;
 }
