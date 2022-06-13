@@ -740,6 +740,12 @@ footer .container .flex-block .left-box .links-box .links a {
   text-transform: capitalize;
   font-weight: 700;
   line-height: 20px;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+footer .container .flex-block .left-box .links-box .links a:hover {
+  color: #EBEDED;
 }
 footer .container .flex-block .right-box {
   display: flex;

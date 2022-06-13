@@ -30,6 +30,10 @@ footer {
               @include text-property(13px, $roboto, $grey4, $capit);
               font-weight: $bold;
               line-height: 20px;
+              @include transition(all, 350ms, ease);
+              &:hover {
+                color: $grey1;
+              }
             }
           }
         }
