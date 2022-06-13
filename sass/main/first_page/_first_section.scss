@@ -34,20 +34,10 @@ section {
           margin-bottom: 25px;
         }
         .learn-more {
-          position: relative;
-          width: 134px;
-          height: 40px;
-          background-color: $pink;
-          border: none;
-          border-radius: 6px;
-          @include transition(all, 500ms, ease);
-          &:hover {
-            background-color: $dark-pink;
-          }
+          @extend %pinkBtn;
           .learn-link {
             @include text-property(11px, $roboto, $white, $upper);
             font-weight: $bold;
-            line-height: 20px;
             letter-spacing: 1px;
             position: absolute;
             top: 0;

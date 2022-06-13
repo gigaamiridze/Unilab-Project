@@ -49,3 +49,16 @@
 %timeAgo {
   @include text-property(13px, $roboto, $grey3, none);
 }
+
+%pinkBtn {
+  position: relative;
+  width: 134px;
+  height: 40px;
+  background-color: $pink;
+  border: none;
+  border-radius: 6px;
+  @include transition(all, 400ms, ease);
+  &:hover {
+    background-color: $dark-pink;
+  }
+}
