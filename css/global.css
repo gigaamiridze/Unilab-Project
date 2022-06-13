@@ -218,6 +218,35 @@ body::-webkit-scrollbar-thumb {
 header {
   background-color: #F6F8F9;
 }
+header .top-mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+header .top-mobile-header #clock {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #202124;
+  text-transform: none;
+  font-weight: 500;
+}
+header .top-mobile-header .networks-box {
+  display: flex;
+}
+header .top-mobile-header .networks-box .network-img {
+  height: 11px;
+}
+header .top-mobile-header .networks-box .network-img:first-child {
+  width: 17px;
+}
+header .top-mobile-header .networks-box .network-img:nth-child(2) {
+  width: 16px;
+  margin: 0 5px;
+}
+header .top-mobile-header .networks-box .network-img:last-child {
+  width: 24px;
+}
 header .header-container {
   display: flex;
   justify-content: space-between;

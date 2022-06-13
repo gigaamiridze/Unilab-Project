@@ -15,6 +15,27 @@ body::-webkit-scrollbar-thumb {
 
 header {
   background-color: $grey;
+  .top-mobile-header {
+    @include display(flex);
+    @include flex-property(space-between, center);
+    display: none;
+    #clock {
+      @include text-property(14px, $roboto, $black, none);
+      font-weight: $medium;
+    }
+    .networks-box {
+      @include display(flex);
+      .network-img {
+        height: 11px;
+        &:first-child { width: 17px; }
+        &:nth-child(2) {
+          width: 16px;
+          margin: 0 5px;
+        }
+        &:last-child { width: 24px; }
+      }
+    }
+  }
   .header-container {
     @include display(flex);
     @include flex-property(space-between, center);

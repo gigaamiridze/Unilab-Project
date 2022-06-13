@@ -18,8 +18,16 @@
     <link rel="stylesheet" type="text/css" href="./css/global.css">
     <title>Unilab Project</title>
   </head>
-  <body>
+  <body onload="realTimeClock()">
     <header>
+      <div class="top-mobile-header">
+        <div id="clock"></div>
+        <div class="networks-box">
+          <img src="./images/signal.svg" class="network-img" alt="Signal">
+          <img src="./images/wifi.svg" class="network-img" alt="Wifi">
+          <img src="./images/battery.svg" class="network-img" alt="Battery">
+        </div>
+      </div>
       <div class="header-container">
         <a href="index.html">
           <h1 class="logo-name">logo</h1>
@@ -270,5 +278,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/clock.js"></script>
   </body>
 </html>
