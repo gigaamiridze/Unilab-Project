@@ -106,6 +106,7 @@ header {
       .girl-avatar {
         width: 22px;
         height: 22px;
+        cursor: pointer;
       }
     }
   }
@@ -128,6 +129,7 @@ header {
       @include transition(all, 600ms, ease);
       &.active {
         right: 25%;
+        box-shadow: 40px 0px 45px 0px $shadowColor;
       }
     }
     .pink-logo {
@@ -198,6 +200,7 @@ header {
           align-items: center;
         }
         .user-img {
+          cursor: pointer;
           @include responsive(phone-land-sm) {
             width: 22px;
             height: 22px;

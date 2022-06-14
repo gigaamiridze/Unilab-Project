@@ -327,6 +327,7 @@ header .mobile-header .bottom-block .grey-logo {
 header .mobile-header .bottom-block .girl-avatar {
   width: 22px;
   height: 22px;
+  cursor: pointer;
 }
 header .header-container {
   display: flex;
@@ -354,6 +355,7 @@ header .header-container {
   }
   header .header-container.active {
     right: 25%;
+    box-shadow: 40px 0px 45px 0px #505050;
   }
 }
 header .header-container .pink-logo {
@@ -442,6 +444,9 @@ header .header-container .flex-box nav ul li .opacity:hover {
     display: flex;
     align-items: center;
   }
+}
+header .header-container .flex-box .user-box .user-img {
+  cursor: pointer;
 }
 @media only screen and (max-width: 480px) {
   header .header-container .flex-box .user-box .user-img {
