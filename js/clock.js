@@ -11,6 +11,6 @@ function realTimeClock() {
   hours = (hours > 12) ? hours - 12 : hours;
 
   // Display the clock
-  document.getElementById('clock').innerHTML = hours + ":" + minutes + " " + amPm;
+  document.getElementById("clock").innerHTML = hours + ":" + minutes + " " + amPm;
   var time = setTimeout(realTimeClock, 500);
 }

@@ -1,6 +1,7 @@
 @import "../../modules/variables";
 @import "../../modules/classes";
 @import "../../modules/mixins";
+@import "../breakpoints";
 
 body::-webkit-scrollbar {
   width: 10px;
@@ -15,24 +16,74 @@ body::-webkit-scrollbar-thumb {
 
 header {
   background-color: $grey;
-  .top-mobile-header {
-    @include display(flex);
-    @include flex-property(space-between, center);
+  .mobile-header {
     display: none;
-    #clock {
-      @include text-property(14px, $roboto, $black, none);
-      font-weight: $medium;
+    @include responsive(phone-land-sm) { 
+      display: block;
+      padding: 20px;
     }
-    .networks-box {
+    .top-block {
       @include display(flex);
-      .network-img {
-        height: 11px;
-        &:first-child { width: 17px; }
-        &:nth-child(2) {
-          width: 16px;
-          margin: 0 5px;
+      @include flex-property(space-between, center);
+      @include responsive(phone-land-sm) {
+        margin-bottom: 20px;
+      }
+      #clock {
+        @include text-property(14px, $roboto, $black, none);
+        font-weight: $medium;
+      }
+      .networks-box {
+        @include display(flex);
+        .network-img {
+          height: 11px;
+          &:first-child { width: 17px; }
+          &:nth-child(2) {
+            width: 16px;
+            margin: 0 5px;
+          }
+          &:last-child { width: 24px; }
         }
-        &:last-child { width: 24px; }
+      }
+    }
+    .bottom-block {
+      @include display(flex);
+      @include flex-property(space-between, center);
+      .burger-menu {
+        cursor: pointer;
+        width: 20px;
+        &.active .line:nth-child(1) {
+          transform: translateY(6px) rotate(45deg);
+          width: 20px;
+        }
+        &.active .line:nth-child(2) {
+          opacity: 0;
+        }
+        &.active .line:nth-child(3) {
+          transform: translateY(-6px) rotate(-45deg);
+          width: 20px;
+        }
+        .line {
+          display: block;
+          height: 2px;
+          background-color: $black;
+          border-radius: 2px;
+          @include transition(all, 350ms, ease);
+          &:nth-child(odd) {
+            width: 16px;
+          }
+          &:nth-child(2) {
+            width: 10px;
+            margin: 4px 0;
+          }
+        }
+      }
+      .grey-logo {
+        @include text-property(15px, $roboto, $grey3, $upper);
+        font-weight: $bold;
+      }
+      .girl-avatar {
+        width: 22px;
+        height: 22px;
       }
     }
   }
@@ -40,7 +91,24 @@ header {
     @include display(flex);
     @include flex-property(space-between, center);
     padding: 10px 20px;
-    .logo-name {
+    @include responsive(phone-land-sm) {
+      position: fixed;
+      top: 0;
+      right: 100%;
+      flex-direction: column;
+      @include flex-property(inherit, inherit);
+      background-color: $grey;
+      width: 75%;
+      height: 100vh;
+      padding: 40px;
+      overflow: hidden;
+      z-index: 10;
+      @include transition(all, 600ms, ease);
+      &.active {
+        right: 25%;
+      }
+    }
+    .pink-logo {
       @include text-property(15px, $roboto, $pink, $upper);
       font-weight: $bold;
       line-height: 20px;
@@ -48,18 +116,49 @@ header {
     .flex-box {
       @include display(flex);
       align-items: center;
+      @include responsive(phone-land-sm) {
+        flex-direction: column;
+        align-items: inherit;
+        margin-top: 110px;
+        line-height: 55px;
+      }
       nav {
         ul {
           @include display(flex);
+          @include responsive(phone-land-sm) {
+            flex-direction: column;
+          }
           li {
             margin-right: 25px;
             &:last-child {
               margin-right: 40px;
+              @include responsive(phone-land-sm) {
+                margin-right: 0;
+              }
+            }
+            @include responsive(phone-land-sm) {
+              margin-right: 0;
+              @include display(flex);
+              align-items: center;
+            }
+            .link-img {
+              width: 20px;
+              height: 20px;
+              display: none;
+              @include responsive(phone-land-sm) {
+                display: block;
+                margin-right: 40px;
+              }
+            }
+            .opacity-img {
+              opacity: 50%;
             }
             .nav-link {
               @include text-property(12px, $roboto, $black, $upper);
               font-weight: $bold;
-              line-height: 20px;
+              @include responsive(phone-land-sm) {
+                font-size: 13px;
+              }
             }
             .opacity {
               opacity: 50%;
@@ -68,6 +167,34 @@ header {
                 opacity: 100%;
               }
             }
+          }
+        }
+      }
+      .user-box {
+        @include responsive(phone-land-sm) {
+          @include display(flex);
+          align-items: center;
+        }
+        .user-img {
+          @include responsive(phone-land-sm) {
+            width: 22px;
+            height: 22px;
+            margin-right: 40px;
+          }
+        }
+        .nav-link {
+          @include text-property(13px, $roboto, $black, $upper);
+          font-weight: $bold;
+          display: none;
+          @include responsive(phone-land-sm) {
+            display: block;
+          }
+        }
+        .opacity {
+          opacity: 50%;
+          @include transition(all, 350ms, ease);
+          &:hover {
+            opacity: 100%;
           }
         }
       }
