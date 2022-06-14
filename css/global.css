@@ -386,7 +386,7 @@ header .header-container {
   }
   header .header-container.active {
     right: 25%;
-    box-shadow: 40px 0px 45px 0px #505050;
+    box-shadow: 25px 0px 60px 0px #222222;
   }
 }
 header .header-container .pink-logo {
