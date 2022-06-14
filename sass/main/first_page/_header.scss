@@ -14,6 +14,28 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  width: 0;
+  height: 100%;
+  z-index: 7;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out, width 0ms ease-in-out 250ms;
+}
+body {
+  &.open .background {
+    width: 100%;
+    opacity: 0.5;
+    transition: opacity 250ms ease-in-out, width 0ms ease-in-out;
+  }
+  &.open {
+    overflow-y: hidden;
+  }
+}
+
 header {
   background-color: $grey;
   .mobile-header {
