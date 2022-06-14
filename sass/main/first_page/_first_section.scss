@@ -1,6 +1,7 @@
 @import "../../modules/variables";
 @import "../../modules/classes";
 @import "../../modules/mixins";
+@import "../breakpoints";
 
 section {
   .flex-block {
@@ -33,22 +34,14 @@ section {
         width: 100%;
         @extend %center;
         @include responsive(desktop) {
-          max-width: 400px;
-        }
-        @include responsive(tablet-lg) {
-          max-width: 700px;
-        }
-        @include responsive(tablet) {
-          max-width: 608px;
+          max-width: 100%;
+          padding: 0 60px;
         }
         @include responsive(phone-land-sm) {
-          max-width: 420px;
-        }
-        @include responsive(phone-port-md) {
-          max-width: 335px;
+          padding: 0 25px;
         }
         @include responsive(phone-port-sm) {
-          max-width: 285px;
+          padding: 0 16px;
         }
         h2 {
           @include text-property(24px, $roboto, $white, $upper);
@@ -140,19 +133,14 @@ section {
         width: 100%;
         @extend %center;
         @include responsive(tablet-lg) {
-          max-width: 700px;
-        }
-        @include responsive(tablet) {
-          max-width: 608px;
+          max-width: 100%;
+          padding: 0 60px; 
         }
         @include responsive(phone-land-sm) {
-          max-width: 420px;
-        }
-        @include responsive(phone-port-md) {
-          max-width: 335px;
+          padding: 0 25px;
         }
         @include responsive(phone-port-sm) {
-          max-width: 285px;
+          padding: 0 16px;
         }
         .top-box {
           @include display(flex);

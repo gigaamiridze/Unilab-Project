@@ -691,32 +691,18 @@ section .flex-block .left-box .world-news-content {
 }
 @media only screen and (max-width: 1024px) {
   section .flex-block .left-box .world-news-content {
-    max-width: 400px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  section .flex-block .left-box .world-news-content {
-    max-width: 700px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  section .flex-block .left-box .world-news-content {
-    max-width: 608px;
+    max-width: 100%;
+    padding: 0 60px;
   }
 }
 @media only screen and (max-width: 480px) {
   section .flex-block .left-box .world-news-content {
-    max-width: 420px;
-  }
-}
-@media only screen and (max-width: 380px) {
-  section .flex-block .left-box .world-news-content {
-    max-width: 335px;
+    padding: 0 25px;
   }
 }
 @media only screen and (max-width: 320px) {
   section .flex-block .left-box .world-news-content {
-    max-width: 285px;
+    padding: 0 16px;
   }
 }
 section .flex-block .left-box .world-news-content h2 {
@@ -844,27 +830,18 @@ section .flex-block .right-box .more-news-content {
 }
 @media only screen and (max-width: 900px) {
   section .flex-block .right-box .more-news-content {
-    max-width: 700px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  section .flex-block .right-box .more-news-content {
-    max-width: 608px;
+    max-width: 100%;
+    padding: 0 60px;
   }
 }
 @media only screen and (max-width: 480px) {
   section .flex-block .right-box .more-news-content {
-    max-width: 420px;
-  }
-}
-@media only screen and (max-width: 380px) {
-  section .flex-block .right-box .more-news-content {
-    max-width: 335px;
+    padding: 0 25px;
   }
 }
 @media only screen and (max-width: 320px) {
   section .flex-block .right-box .more-news-content {
-    max-width: 285px;
+    padding: 0 16px;
   }
 }
 section .flex-block .right-box .more-news-content .top-box {
@@ -1062,9 +1039,29 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 .add-padd {
   padding: 40px 0;
 }
+@media only screen and (max-width: 320px) {
+  .add-padd {
+    padding: 30px 0;
+  }
+}
 
 .bg-color {
   background-color: #F6F8F9;
+}
+@media only screen and (max-width: 1024px) {
+  .bg-color .container {
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container {
+    padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container {
+    padding: 0 16px;
+  }
 }
 .bg-color .container .horizontal-block {
   display: flex;
@@ -1072,15 +1069,60 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   align-items: center;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 320px) {
+  .bg-color .container .horizontal-block {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .horizontal-block h2 {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .horizontal-block .icons-box .arrow-icon {
+    font-size: 14px !important;
+  }
+}
 .bg-color .container .flex-block-1 {
   display: flex;
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 {
+    flex-direction: column;
+  }
 }
 .bg-color .container .flex-block-1 .image-and-info {
   max-width: 350px;
   width: 100%;
 }
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 .image-and-info {
+    max-width: 100%;
+  }
+}
 .bg-color .container .flex-block-1 .image-and-info:nth-child(2) {
   margin: 0 20px;
+}
+@media only screen and (max-width: 768px) {
+  .bg-color .container .flex-block-1 .image-and-info:nth-child(2) {
+    margin: 0 0 0 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 .image-and-info:nth-child(2) {
+    margin: 40px 0 0 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .flex-block-1 .image-and-info:nth-child(2) {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-color .container .flex-block-1 .image-and-info:last-child {
+    display: none;
+  }
 }
 .bg-color .container .flex-block-1 .image-and-info img {
   width: 100%;
@@ -1095,10 +1137,50 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 1024px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box {
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box {
+    padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box {
+    justify-content: inherit;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box {
+    padding: 0 20px;
+  }
+}
 .bg-color .container .flex-block-1 .image-and-info .white-box .info-box {
   max-width: 270px;
   width: 100%;
   padding: 40px 0;
+}
+@media only screen and (max-width: 670px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box {
+    padding: 30px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box {
+    max-width: 310px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box {
+    padding: 20px 0;
+  }
 }
 .bg-color .container .flex-block-1 .image-and-info .white-box .info-box h6 {
   font-size: 16px;
@@ -1108,6 +1190,11 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   font-weight: 700;
   line-height: 20px;
 }
+@media only screen and (max-width: 320px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box h6 {
+    font-size: 15px;
+  }
+}
 .bg-color .container .flex-block-1 .image-and-info .white-box .info-box p {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
@@ -1116,6 +1203,16 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   font-weight: 400;
   line-height: 20px;
   margin: 5px 0 10px 0;
+}
+@media only screen and (max-width: 480px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .flex-block-1 .image-and-info .white-box .info-box p {
+    font-size: 13px;
+  }
 }
 .add-padd-bott .container, footer .container, .bg-color .container {
   max-width: 1050px;
