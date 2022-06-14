@@ -205,6 +205,21 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 body::-webkit-scrollbar {
   width: 10px;
 }
+@media only screen and (max-width: 768px) {
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+}
 
 body::-webkit-scrollbar-track {
   background-color: #F6F8F9;

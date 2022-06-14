@@ -5,6 +5,9 @@
 
 body::-webkit-scrollbar {
   width: 10px;
+  @include responsive(tablet) { width: 8px; }
+  @include responsive(phone-land-sm) { width: 6px; }
+  @include responsive(phone-port-md) { width: 5px; }
 }
 body::-webkit-scrollbar-track {
   background-color: $grey;
