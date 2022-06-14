@@ -5,17 +5,35 @@
 
 .bottom-padd {
   padding-bottom: 100px;
+  @include responsive(tablet-lg) {
+    padding-bottom: 80px;
+  }
   .container {
     .flex-block-2 {
       @include display(flex);
+      @include responsive(tablet-lg) {
+        flex-direction: column;
+      }
       .left-vertical-box {
         margin-right: 40px;
+        @include responsive(desktop) {
+          margin-right: 30px;
+        }
+        @include responsive(tablet-lg) {
+          margin-right: 0;
+        }
         .image-box {
           max-width: 720px;
           width: 100%;
           position: relative;
+          @include responsive(tablet-lg) {
+            max-width: 100%; 
+          }
           &:first-child {
             margin-bottom: 40px;
+            @include responsive(desktop) {
+              margin-bottom: 30px;
+            }
           }
           img {
             width: 100%;
@@ -28,6 +46,14 @@
             position: absolute;
             top: 40px;
             left: 40px;
+            @include responsive(desktop) {
+              top: 30px;
+              left: 30px;
+            }
+            @include responsive(tablet-lg) {
+              top: 40px;
+              left: 40px;
+            }
           }
           .img-info {
             max-width: 550px;
@@ -35,6 +61,16 @@
             position: absolute;
             left: 40px;
             bottom: 40px;
+            @include responsive(desktop) {
+              max-width: 425px;
+              left: 30px;
+              bottom: 30px;
+            }
+            @include responsive(tablet-lg) {
+              max-width: 685px;
+              left: 40px;
+              bottom: 40px;
+            }
             h3 {
               @include text-property(24px, $roboto, $white, none);
               font-weight: $bold;
@@ -62,12 +98,36 @@
         max-width: 320px;
         width: 100%;
         position: relative;
+        @include responsive(desktop) {
+          max-width: 270px;
+        }
+        @include responsive(tablet-lg) {
+          max-width: 100%;
+          height: 275px;
+          margin-top: 30px;
+        }
         .box {
           width: 100%;
-          position: absolute; 
+          position: absolute;
+          @include responsive(tablet-lg) {
+            width: 48%;
+          }
           &:first-child { top: 0; }
-          &:nth-child(2) { @extend %center; }
-          &:last-child { bottom: 0; }
+          &:nth-child(2) {
+            @extend %center;
+            @include responsive(tablet-lg) {
+              top: 0 !important;
+              left: inherit !important;
+              right: 0 !important;
+              transform: translate(0, 0) !important;
+            }
+          }
+          &:last-child {
+            bottom: 0;
+            @include responsive(tablet-lg) {
+              display: none;
+            }
+          }
           img {
             width: 100%;
           }
