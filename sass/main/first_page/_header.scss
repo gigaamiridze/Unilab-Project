@@ -44,6 +44,9 @@ header {
       display: block;
       padding: 20px;
     }
+    @include responsive(phone-port-md) {
+      padding: 16px;
+    }
     .top-block {
       @include display(flex);
       @include flex-property(space-between, center);
@@ -102,11 +105,18 @@ header {
       .grey-logo {
         @include text-property(15px, $roboto, $grey3, $upper);
         font-weight: $bold;
+        @include responsive(phone-port-md) {
+          font-size: 13px; 
+        }
       }
       .girl-avatar {
         width: 22px;
         height: 22px;
         cursor: pointer;
+        @include responsive(phone-port-md) {
+          width: 18px;
+          height: 18px; 
+        }
       }
     }
   }
@@ -136,6 +146,12 @@ header {
       @include text-property(15px, $roboto, $pink, $upper);
       font-weight: $bold;
       line-height: 20px;
+      @include responsive(phone-port-md) {
+        font-size: 14px;
+      }
+      @include responsive(phone-port-sm) {
+        font-size: 13px;
+      }
     }
     .flex-box {
       @include display(flex);
@@ -173,6 +189,15 @@ header {
                 display: block;
                 margin-right: 40px;
               }
+              @include responsive(phone-port-md) {
+                width: 18px;
+                height: 18px;
+              }
+              @include responsive(phone-port-sm) {
+                width: 16px;
+                height: 16px;
+                margin-right: 35px;
+              }
             }
             .opacity-img {
               opacity: 50%;
@@ -182,6 +207,12 @@ header {
               font-weight: $bold;
               @include responsive(phone-land-sm) {
                 font-size: 13px;
+              }
+              @include responsive(phone-port-md) {
+                font-size: 12px;
+              }
+              @include responsive(phone-port-sm) {
+                font-size: 11px;
               }
             }
             .opacity {
@@ -206,6 +237,15 @@ header {
             height: 22px;
             margin-right: 40px;
           }
+          @include responsive(phone-port-md) {
+            width: 18px;
+            height: 18px;
+          }
+          @include responsive(phone-port-sm) {
+            width: 16px;
+            height: 16px;
+            margin-right: 35px;
+          }
         }
         .nav-link {
           @include text-property(13px, $roboto, $black, $upper);
@@ -213,6 +253,12 @@ header {
           display: none;
           @include responsive(phone-land-sm) {
             display: block;
+          }
+          @include responsive(phone-port-md) {
+            font-size: 12px;
+          }
+          @include responsive(phone-port-sm) {
+            font-size: 11px;
           }
         }
         .opacity {
