@@ -51,6 +51,9 @@ footer {
           }
           @include responsive(phone-land-sm) {
             width: 100%;
+            justify-content: space-around;
+          }
+          @include responsive(phone-port-md) {
             justify-content: space-between;
           }
           .links {
@@ -90,8 +93,11 @@ footer {
         @include display(flex);
         @include responsive(tablet-lg) {
           width: 100%;
-          @include flex-property(space-between, flex-end);
+          @include flex-property(center, flex-end);
           margin-top: 50px;
+        }
+        @include responsive(phone-port-md) {
+          justify-content: flex-start;
         }
         @include responsive(phone-port-sm) {
           margin-top: 30px;
