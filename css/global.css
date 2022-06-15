@@ -1739,14 +1739,50 @@ footer {
   background-color: #A6ADB4;
   padding: 60px 0;
 }
+@media only screen and (max-width: 480px) {
+  footer {
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  footer {
+    padding: 30px 0 40px 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer .container {
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer .container {
+    padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  footer .container {
+    padding: 0 50px;
+  }
+}
 footer .container .flex-block {
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block {
+    flex-direction: column;
+  }
+}
 footer .container .flex-block .left-box {
   display: flex;
 }
-footer .container .flex-block .left-box a {
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block .left-box {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+footer .container .flex-block .left-box .footer-logo {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -1754,16 +1790,40 @@ footer .container .flex-block .left-box a {
   font-weight: 700;
   line-height: 20px;
 }
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .left-box .footer-logo {
+    display: none;
+  }
+}
 footer .container .flex-block .left-box .links-box {
   display: flex;
   margin-left: 60px;
+}
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block .left-box .links-box {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .left-box .links-box {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 footer .container .flex-block .left-box .links-box .links {
   display: flex;
   flex-direction: column;
 }
+footer .container .flex-block .left-box .links-box .links:first-child {
+  display: none;
+}
 footer .container .flex-block .left-box .links-box .links:nth-child(2) {
   margin: 0 40px;
+}
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .left-box .links-box .links:nth-child(2) {
+    margin: 0 0;
+  }
 }
 footer .container .flex-block .left-box .links-box .links a {
   font-size: 13px;
@@ -1779,8 +1839,37 @@ footer .container .flex-block .left-box .links-box .links a {
 footer .container .flex-block .left-box .links-box .links a:hover {
   color: #EBEDED;
 }
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .left-box .links-box .links a {
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #FFFFFF;
+    opacity: 50%;
+  }
+  footer .container .flex-block .left-box .links-box .links a:hover {
+    opacity: 100%;
+  }
+}
 footer .container .flex-block .right-box {
   display: flex;
+}
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block .right-box {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  footer .container .flex-block .right-box {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .right-box .input-box {
+    display: none;
+  }
 }
 footer .container .flex-block .right-box .input-box form {
   position: relative;
@@ -1840,8 +1929,28 @@ footer .container .flex-block .right-box .input-box p {
 footer .container .flex-block .right-box .social-icons {
   margin-left: 120px;
 }
+@media only screen and (max-width: 1024px) {
+  footer .container .flex-block .right-box .social-icons {
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block .right-box .social-icons {
+    margin-left: 0;
+  }
+}
 footer .container .flex-block .right-box .social-icons a {
   margin-right: 32px;
+}
+@media only screen and (max-width: 1024px) {
+  footer .container .flex-block .right-box .social-icons a {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  footer .container .flex-block .right-box .social-icons a {
+    margin-right: 25px;
+  }
 }
 footer .container .flex-block .right-box .social-icons a:last-child {
   margin-right: 0;
