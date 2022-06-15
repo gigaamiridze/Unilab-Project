@@ -73,6 +73,11 @@ header {
         }
       }
     }
+    .minus-margin {
+      @include responsive(phone-land-sm) {
+        margin-bottom: 0;
+      }
+    }
     .bottom-block {
       @include display(flex);
       @include flex-property(space-between, center);
@@ -120,6 +125,11 @@ header {
           width: 18px;
           height: 18px; 
         }
+      }
+    }
+    .hidden-on-mobile {
+      @include responsive(phone-land-sm) {
+        display: none;
       }
     }
   }

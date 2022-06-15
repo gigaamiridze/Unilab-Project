@@ -10,7 +10,7 @@
     <meta property="og:description"        content="Unilab's first stage assignment" />
     <meta property="og:image"              content="https://gigaamiridze.github.io/Unilab-Project/images/travel.svg" />
     <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, SASS, SCSS, JavaScript">
+    <meta name="keywords" content="Travel, Unilab Project, HTML, CSS, SASS, SCSS, JavaScript">
     <meta name="author" content="Giga Amiridze">
     <script src="https://kit.fontawesome.com/b1609179cd.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -22,7 +22,7 @@
     <header>
       <div class="background"></div>
       <div class="mobile-header">
-        <div class="top-block">
+        <div class="top-block minus-margin">
           <div id="clock"></div>
           <div class="networks-box">
             <img src="./images/signal.svg" class="network-img" alt="Signal">
@@ -30,7 +30,7 @@
             <img src="./images/battery.svg" class="network-img" alt="Battery">
           </div>
         </div>
-        <div class="bottom-block">
+        <div class="bottom-block hidden-on-mobile">
           <div class="burger-menu">
             <span class="line"></span>    
             <span class="line"></span>    
@@ -75,18 +75,25 @@
       </div>
     </header>
     <section class="bg-color">
-      <div class="container">
-        <div class="horizontal-block">
-          <div class="menu-box">
-            <a href="index.html">
-              <img src="./images/home.svg" class="home" alt="Home">
-            </a>
-            <h3>story</h3>
-            <h3>world news</h3>
-          </div>
+      <div class="address-block">
+        <div class="menu-box">
+          <a href="index.html">
+            <img src="./images/home.svg" class="home" alt="Home">
+          </a>
+          <h3>story</h3>
+          <h3>world news</h3>
+        </div>
+        <a href="index.html">
+          <img src="./images/back-arrow.svg" class="back-arrow" alt="Back Arrow">
+        </a>
+        <div class="filter-box">
           <img src="./images/filter.svg" class="filter" alt="Filter">
         </div>
-        <div class="bottom-block">
+      </div>
+    </section>
+    <section class="bg-color">
+      <div class="container">
+        <div class="common-block">
           <div class="left-box" style="background-image: url(./images/desert.svg);">
             <div class="text-content">
               <h2>world news</h2>
