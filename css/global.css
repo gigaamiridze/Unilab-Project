@@ -2266,7 +2266,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   .bg-color .container .common-block .left-box {
     max-width: 100%;
     height: 450px;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2377,6 +2377,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 6px 6px;
     padding: 0 80px;
   }
 }
@@ -2577,19 +2578,54 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 .bg-color .container .underline:first-child {
   margin-bottom: 40px;
 }
+@media only screen and (max-width: 320px) {
+  .bg-color .container .underline:first-child {
+    margin-bottom: 25px;
+  }
+}
 .bg-color .container .underline:last-child {
   margin-top: 40px;
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .underline:last-child {
+    margin-top: 25px;
+  }
 }
 .bg-color .container .wrapper-block {
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 900px) {
+  .bg-color .container .wrapper-block {
+    flex-direction: column;
+  }
+}
 .bg-color .container .wrapper-block .avatar-box {
   max-width: 330px;
   width: 100%;
 }
+@media only screen and (max-width: 900px) {
+  .bg-color .container .wrapper-block .avatar-box {
+    max-width: 320px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .bg-color .container .wrapper-block .avatar-box {
+    max-width: 100%;
+  }
+}
 .bg-color .container .wrapper-block .avatar-box .avatar {
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .bg-color .container .wrapper-block .avatar-box .avatar {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .wrapper-block .avatar-box .avatar {
+    margin-bottom: 5px;
+  }
 }
 .bg-color .container .wrapper-block .avatar-box p {
   font-size: 24px;
@@ -2599,8 +2635,26 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
   font-weight: 700;
   line-height: 34px;
 }
+@media only screen and (max-width: 320px) {
+  .bg-color .container .wrapper-block .avatar-box p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
 .bg-color .container .wrapper-block .article-box {
   display: flex;
+}
+@media only screen and (max-width: 900px) {
+  .bg-color .container .wrapper-block .article-box {
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .bg-color .container .wrapper-block .article-box {
+    flex-direction: column;
+    margin-top: 15px;
+  }
 }
 .bg-color .container .wrapper-block .article-box p {
   font-size: 14px;
@@ -2611,11 +2665,47 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
   line-height: 26px;
   width: 310px;
 }
+@media only screen and (max-width: 900px) {
+  .bg-color .container .wrapper-block .article-box p {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-color .container .wrapper-block .article-box p {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .bg-color .container .wrapper-block .article-box p {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .bg-color .container .wrapper-block .article-box p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .wrapper-block .article-box p {
+    margin-bottom: 10px;
+  }
+}
 .bg-color .container .wrapper-block .article-box div {
   margin-left: 40px;
 }
+@media only screen and (max-width: 670px) {
+  .bg-color .container .wrapper-block .article-box div {
+    margin-left: 0;
+  }
+}
 .bg-color .container .wrapper-block .article-box div p {
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 320px) {
+  .bg-color .container .wrapper-block .article-box div p {
+    margin-bottom: 15px;
+  }
 }
 .bg-color .container .wrapper-block .article-box div .time {
   margin-left: 0;
