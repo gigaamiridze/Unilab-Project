@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -116,7 +117,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -144,7 +145,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -205,7 +206,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -233,7 +234,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -343,7 +344,7 @@ header .mobile-header .top-block {
 }
 header .mobile-header .top-block #clock {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 500;
@@ -407,7 +408,7 @@ header .mobile-header .bottom-block .burger-menu .line:nth-child(2) {
 }
 header .mobile-header .bottom-block .grey-logo {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: uppercase;
   font-weight: 700;
@@ -464,7 +465,7 @@ header .header-container {
 }
 header .header-container .pink-logo {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FA6980;
   text-transform: uppercase;
   font-weight: 700;
@@ -547,7 +548,7 @@ header .header-container .flex-box nav ul li .opacity-img {
 }
 header .header-container .flex-box nav ul li .nav-link {
   font-size: 12px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -607,7 +608,7 @@ header .header-container .flex-box .user-box .user-img {
 }
 header .header-container .flex-box .user-box .nav-link {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -667,7 +668,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -695,7 +696,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
 
 .bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -787,7 +788,7 @@ section .flex-block .left-box .world-news-content {
 }
 section .flex-block .left-box .world-news-content h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -819,7 +820,7 @@ section .flex-block .left-box .world-news-content h2::after {
 }
 section .flex-block .left-box .world-news-content h4 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: none;
   font-weight: 700;
@@ -833,7 +834,7 @@ section .flex-block .left-box .world-news-content h4 {
 }
 section .flex-block .left-box .world-news-content p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: none;
   line-height: 25px;
@@ -864,7 +865,7 @@ section .flex-block .left-box .world-news-content p {
 }
 section .flex-block .left-box .world-news-content .learn-more .learn-link {
   font-size: 11px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -993,7 +994,7 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box:first
 }
 section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FA6980;
   text-transform: capitalize;
   font-weight: 700;
@@ -1011,7 +1012,7 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
 }
 section .flex-block .right-box .more-news-content .bottom-box .article-box h5 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 700;
@@ -1026,7 +1027,7 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box h5 {
 }
 section .flex-block .right-box .more-news-content .bottom-box .article-box p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
   line-height: 25px;
@@ -1068,7 +1069,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 .bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -1096,7 +1097,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 .bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -1276,7 +1277,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 }
 .bg-color .container .flex-block-1 .image-and-info .white-box .info-box h6 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 700;
@@ -1289,7 +1290,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 }
 .bg-color .container .flex-block-1 .image-and-info .white-box .info-box p {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
   font-weight: 400;
@@ -1335,7 +1336,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -1363,7 +1364,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 
 .bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -1484,7 +1485,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bottom-padd .container .flex-block-2 .left-vertical-box .image-box h4 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -1574,7 +1575,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info h3 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: none;
   font-weight: 700;
@@ -1592,7 +1593,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: none;
   font-weight: 400;
@@ -1729,7 +1730,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bottom-padd .container .flex-block-2 .right-vertical-box .box div h6 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 700;
@@ -1746,7 +1747,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span a {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: capitalize;
   position: relative;
@@ -1791,7 +1792,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -1819,7 +1820,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 
 .bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -1900,7 +1901,7 @@ footer .container .flex-block .left-box {
 }
 footer .container .flex-block .left-box .footer-logo {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -1948,7 +1949,7 @@ footer .container .flex-block .left-box .links-box .links:nth-child(2) {
 }
 footer .container .flex-block .left-box .links-box .links a {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #CBD0D3;
   text-transform: capitalize;
   font-weight: 700;
@@ -2007,7 +2008,7 @@ footer .container .flex-block .right-box .input-box form .input-field {
   border-style: solid;
   border-color: #FFFFFF;
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #EBEDED;
   text-transform: none;
   border-radius: 6px;
@@ -2022,7 +2023,7 @@ footer .container .flex-block .right-box .input-box form .input-field {
 }
 footer .container .flex-block .right-box .input-box form .input-field::placeholder {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #EBEDED;
   text-transform: capitalize;
   font-weight: 400;
@@ -2046,7 +2047,7 @@ footer .container .flex-block .right-box .input-box form .btn .send-icon {
 }
 footer .container .flex-block .right-box .input-box p {
   font-size: 11px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #CBD0D3;
   text-transform: none;
   font-weight: 400;
@@ -2133,7 +2134,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -2161,7 +2162,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 
 .bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -2236,7 +2237,7 @@ section .address-block .menu-box a .home {
 }
 section .address-block .menu-box h3 {
   font-size: 11px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -2329,7 +2330,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -2357,7 +2358,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 
 .bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -2446,7 +2447,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bg-color .container .common-block .left-box .text-content h2 {
   font-size: 32px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -2479,7 +2480,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bg-color .container .common-block .left-box .text-content p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: none;
   font-weight: 700;
@@ -2555,7 +2556,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 }
 .bg-color .container .common-block .right-box .form .label {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 700;
@@ -2579,7 +2580,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   outline: none;
   cursor: pointer;
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: capitalize;
 }
@@ -2600,7 +2601,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 .bg-color .container .common-block .right-box .form .search-btn {
   cursor: pointer;
   font-size: 11px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -2672,7 +2673,7 @@ section .flex-block .left-box .world-news-content, section .flex-block .right-bo
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -2700,7 +2701,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
 
 .bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -2786,7 +2787,7 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 }
 .bg-color .container .wrapper-block .avatar-box p {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   font-weight: 700;
@@ -2815,7 +2816,7 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 }
 .bg-color .container .wrapper-block .article-box p {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
   font-weight: 400;
@@ -2896,7 +2897,7 @@ section .flex-block .left-box .world-news-content, section .flex-block .right-bo
 
 section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: uppercase;
   font-weight: 700;
@@ -2924,7 +2925,7 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box .time
 
 section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bg-color .container .wrapper-block .article-box div .time span {
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
@@ -2995,7 +2996,7 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 }
 .add-padd-bott .container .paragraph-box p {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
   font-weight: 400;
@@ -3016,7 +3017,7 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 }
 .add-padd-bott .container .tablet-paragraph {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #202124;
   text-transform: none;
   line-height: 25px;
@@ -3067,7 +3068,7 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 }
 .add-padd-bott .container .numbers-box .queue-num {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
   font-weight: 400;
