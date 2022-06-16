@@ -93,8 +93,11 @@ footer {
         @include display(flex);
         @include responsive(tablet-lg) {
           width: 100%;
-          @include flex-property(center, flex-end);
+          @include flex-property(space-between, flex-end);
           margin-top: 50px;
+        }
+        @include responsive(phone-land-sm) {
+          justify-content: center;
         }
         @include responsive(phone-port-md) {
           justify-content: flex-start;

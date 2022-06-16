@@ -1978,9 +1978,14 @@ footer .container .flex-block .right-box {
 @media only screen and (max-width: 900px) {
   footer .container .flex-block .right-box {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
     margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer .container .flex-block .right-box {
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 380px) {
