@@ -18,7 +18,62 @@
     <link rel="stylesheet" type="text/css" href="./css/global.css">
     <title>Products</title>
   </head>
-  <body>
+  <body onload="realTimeClock()">
+    <header>
+      <div class="background"></div>
+      <div class="mobile-header">
+        <div class="top-block">
+          <div id="clock"></div>
+          <div class="networks-box">
+            <img src="./images/signal.svg" class="network-img" alt="Signal">
+            <img src="./images/wifi.svg" class="network-img" alt="Wifi">
+            <img src="./images/battery.svg" class="network-img" alt="Battery">
+          </div>
+        </div>
+        <div class="bottom-block">
+          <div class="burger-menu">
+            <span class="line"></span>    
+            <span class="line"></span>    
+            <span class="line"></span>
+          </div>
+          <a href="index.html">
+            <h1 class="grey-logo">logo</h1>
+          </a>
+          <img src="./images/girl-avatar.svg" class="girl-avatar" alt="User">
+        </div>
+      </div>
+      <div class="header-container">
+        <a href="index.html">
+          <h1 class="pink-logo">logo</h1>
+        </a>
+        <div class="flex-box">
+          <nav>
+            <ul>
+              <li>
+                <img src="./images/home.svg" class="link-img" alt="Home">
+                <a href="index.html" class="nav-link">home</a>
+              </li>
+              <li>
+                <img src="./images/discover.svg" class="link-img opacity-img" alt="Products">
+                <a href="product.html" class="nav-link opacity">products</a>
+              </li>
+              <li>
+                <img src="./images/photos.svg" class="link-img opacity-img" alt="Photos">
+                <a href="#" class="nav-link opacity">photos</a>
+              </li>
+              <li>
+                <img src="./images/mail.svg" class="link-img opacity-img" alt="Mail">
+                <a href="#" class="nav-link opacity">contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-box">
+            <img src="./images/user.svg" class="user-img" alt="User">
+            <a href="#" class="nav-link opacity">profile</a>
+          </div>
+        </div>
+      </div>
+    </header>
     <section class="bg-color">
       <div class="container">
         <h1 class="head-title">products</h1>
@@ -26,6 +81,8 @@
         </div>
       </div>
     </section>
+    <script src="./js/burger-menu.js"></script>
     <script src="./js/fetch-api.js"></script>
+    <script src="./js/clock.js"></script>
   </body>
 </html>
