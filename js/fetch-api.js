@@ -1,5 +1,5 @@
 function fetchData() {
-  fetch('https://fakestoreapi.com/products').then((response) => {
+  fetch('https://fakestoreapi.com/products?limit=12').then((response) => {
     return response.json();
   }).then((data) => {
     let productContent = "";

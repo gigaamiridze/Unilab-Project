@@ -3225,17 +3225,60 @@ section .container .head-title {
   text-align: center;
   padding: 40px 0;
 }
+@media only screen and (max-width: 480px) {
+  section .container .head-title {
+    font-size: 38px;
+    padding: 30px 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  section .container .head-title {
+    font-size: 32px;
+    padding: 25px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  section .container .head-title {
+    font-size: 26px;
+    padding: 20px 0;
+  }
+}
 section .container #cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 768px) {
+  section .container #cards {
+    flex-direction: column;
+  }
+}
 section .container #cards .card {
-  width: 30%;
+  width: 31%;
   box-shadow: 0 0 4px 4px #FA6980;
   text-align: center;
   padding: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 768px) {
+  section .container #cards .card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section .container #cards .card {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  section .container #cards .card {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  section .container #cards .card {
+    margin-bottom: 25px;
+  }
 }
 section .container #cards .card .title {
   font-size: 20px;
@@ -3243,11 +3286,38 @@ section .container #cards .card .title {
   color: #202124;
   text-transform: capitalize;
   font-weight: 700;
+  line-height: 25px;
+}
+@media only screen and (max-width: 380px) {
+  section .container #cards .card .title {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  section .container #cards .card .title {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 section .container #cards .card .image {
   width: 80%;
   object-fit: cover;
   margin: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  section .container #cards .card .image {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section .container #cards .card .image {
+    margin: 15px 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  section .container #cards .card .image {
+    margin: 10px 0;
+  }
 }
 section .container #cards .card .description {
   font-size: 15px;
@@ -3256,8 +3326,24 @@ section .container #cards .card .description {
   text-transform: none;
   line-height: 22px;
 }
+@media only screen and (max-width: 380px) {
+  section .container #cards .card .description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 section .container #cards .card .category {
   margin: 15px 0;
+}
+@media only screen and (max-width: 480px) {
+  section .container #cards .card .category {
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  section .container #cards .card .category {
+    margin: 5px 0;
+  }
 }
 section .container #cards .card .category, section .container #cards .card .price {
   font-size: 15px;
@@ -3265,4 +3351,9 @@ section .container #cards .card .category, section .container #cards .card .pric
   color: #202124;
   text-transform: capitalize;
   font-weight: 700;
+}
+@media only screen and (max-width: 320px) {
+  section .container #cards .card .category, section .container #cards .card .price {
+    font-size: 14px;
+  }
 }
