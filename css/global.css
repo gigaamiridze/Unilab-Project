@@ -88,12 +88,12 @@ a {
   font-style: normal;
   font-display: swap;
 }
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container, .first-section .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .right-box .more-news-content .underline, section .flex-block .left-box .world-news-content h2::after {
+.first-section .container .flex-block .more-news-content .underline, .first-section .container .flex-block .world-news-content h2::after {
   content: "";
   display: block;
   width: 100%;
@@ -108,14 +108,14 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
+.bg-color .container .horizontal-block h2, .first-section .container .flex-block .more-news-content .top-box h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -124,33 +124,33 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   line-height: 20px;
 }
 
-.bg-color .container .horizontal-block .icons-box .arrow-icon, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon {
+.bg-color .container .horizontal-block .icons-box .arrow-icon, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon {
   font-size: 15px;
 }
-.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child {
+.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -161,7 +161,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -177,12 +177,12 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   bottom: 0;
 }
 
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container, .first-section .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .right-box .more-news-content .underline, section .flex-block .left-box .world-news-content h2::after {
+.first-section .container .flex-block .more-news-content .underline, .first-section .container .flex-block .world-news-content h2::after {
   content: "";
   display: block;
   width: 100%;
@@ -197,14 +197,14 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
+.bg-color .container .horizontal-block h2, .first-section .container .flex-block .more-news-content .top-box h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -213,33 +213,33 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   line-height: 20px;
 }
 
-.bg-color .container .horizontal-block .icons-box .arrow-icon, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon {
+.bg-color .container .horizontal-block .icons-box .arrow-icon, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon {
   font-size: 15px;
 }
-.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child {
+.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -250,7 +250,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -639,12 +639,12 @@ header .header-container .flex-box .user-box .opacity:hover {
   opacity: 100%;
 }
 
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container, .first-section .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .right-box .more-news-content .underline, section .flex-block .left-box .world-news-content h2::after {
+.first-section .container .flex-block .more-news-content .underline, .first-section .container .flex-block .world-news-content h2::after {
   content: "";
   display: block;
   width: 100%;
@@ -659,14 +659,14 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), section .flex-block .right-box .more-news-content, section .flex-block .left-box .world-news-content {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
+.bg-color .container .horizontal-block h2, .first-section .container .flex-block .more-news-content .top-box h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -675,33 +675,33 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   line-height: 20px;
 }
 
-.bg-color .container .horizontal-block .icons-box .arrow-icon, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon {
+.bg-color .container .horizontal-block .icons-box .arrow-icon, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon {
   font-size: 15px;
 }
-.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child {
+.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -712,7 +712,7 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -728,65 +728,116 @@ section .flex-block .right-box .more-news-content .underline, section .flex-bloc
   bottom: 0;
 }
 
-section .flex-block {
-  display: flex;
+.first-section {
+  position: relative;
+  height: 92vh;
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block {
-    flex-direction: column;
+  .first-section {
+    height: 135vh;
   }
 }
-section .flex-block .left-box {
+@media only screen and (max-width: 768px) {
+  .first-section {
+    height: 125vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .first-section {
+    height: 142vh;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .first-section {
+    height: 136vh;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .first-section {
+    height: 124vh;
+  }
+}
+.first-section .nature-img {
   max-width: 700px;
   width: 100%;
-  height: 92vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(80%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .first-section .nature-img {
+    max-width: 520px;
+  }
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block .left-box {
+  .first-section .nature-img {
     max-width: 100%;
     height: 450px;
   }
 }
 @media only screen and (max-width: 768px) {
-  section .flex-block .left-box {
+  .first-section .nature-img {
     height: 400px;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box {
+  .first-section .nature-img {
     height: 375px;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box {
+  .first-section .nature-img {
     height: 340px;
   }
 }
-section .flex-block .left-box .world-news-content {
-  max-width: 490px;
-  width: 100%;
+.first-section .full-height {
+  height: 100%;
 }
 @media only screen and (max-width: 1024px) {
-  section .flex-block .left-box .world-news-content {
-    max-width: 100%;
+  .first-section .container {
     padding: 0 60px;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box .world-news-content {
+  .first-section .container {
     padding: 0 25px;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content {
+  .first-section .container {
     padding: 0 16px;
   }
 }
-section .flex-block .left-box .world-news-content h2 {
+.first-section .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .first-section .container .flex-block {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+.first-section .container .flex-block .world-news-content {
+  max-width: 490px;
+  width: 100%;
+  z-index: 1;
+}
+@media only screen and (max-width: 1024px) {
+  .first-section .container .flex-block .world-news-content {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .first-section .container .flex-block .world-news-content {
+    max-width: 100%;
+  }
+}
+.first-section .container .flex-block .world-news-content h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -795,30 +846,30 @@ section .flex-block .left-box .world-news-content h2 {
   line-height: 42px;
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box .world-news-content h2 {
+  .first-section .container .flex-block .world-news-content h2 {
     line-height: 20px;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content h2 {
+  .first-section .container .flex-block .world-news-content h2 {
     font-size: 22px;
   }
 }
-section .flex-block .left-box .world-news-content h2::after {
+.first-section .container .flex-block .world-news-content h2::after {
   background-color: #FFFFFF;
   margin: 20px 0 30px 0;
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box .world-news-content h2::after {
+  .first-section .container .flex-block .world-news-content h2::after {
     margin-top: 30px;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content h2::after {
+  .first-section .container .flex-block .world-news-content h2::after {
     margin: 25px 0 20px 0;
   }
 }
-section .flex-block .left-box .world-news-content h4 {
+.first-section .container .flex-block .world-news-content h4 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -827,12 +878,12 @@ section .flex-block .left-box .world-news-content h4 {
   line-height: 34px;
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content h4 {
+  .first-section .container .flex-block .world-news-content h4 {
     font-size: 20px;
     line-height: 30px;
   }
 }
-section .flex-block .left-box .world-news-content p {
+.first-section .container .flex-block .world-news-content p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -841,29 +892,29 @@ section .flex-block .left-box .world-news-content p {
   margin-bottom: 25px;
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box .world-news-content p {
+  .first-section .container .flex-block .world-news-content p {
     margin: 25px 0 15px 0;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content p {
+  .first-section .container .flex-block .world-news-content p {
     font-size: 14px;
     line-height: 22px;
     margin: 15px 0 10px 0;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .left-box .world-news-content .learn-more {
+  .first-section .container .flex-block .world-news-content .learn-more {
     width: 150px !important;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .left-box .world-news-content .learn-more {
+  .first-section .container .flex-block .world-news-content .learn-more {
     width: 140px !important;
     height: 35px !important;
   }
 }
-section .flex-block .left-box .world-news-content .learn-more .learn-link {
+.first-section .container .flex-block .world-news-content .learn-more .learn-link {
   font-size: 11px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -879,120 +930,89 @@ section .flex-block .left-box .world-news-content .learn-more .learn-link {
   justify-content: center;
   align-items: center;
 }
-section .flex-block .right-box {
-  max-width: 563px;
-  width: 100%;
-  position: relative;
-}
-@media only screen and (max-width: 900px) {
-  section .flex-block .right-box {
-    max-width: 100%;
-    height: 350px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  section .flex-block .right-box {
-    height: 325px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  section .flex-block .right-box {
-    height: 460px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  section .flex-block .right-box {
-    height: 400px;
-  }
-}
-section .flex-block .right-box .more-news-content {
+.first-section .container .flex-block .more-news-content {
   max-width: 360px;
   width: 100%;
+  z-index: 1;
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block .right-box .more-news-content {
+  .first-section .container .flex-block .more-news-content {
     max-width: 100%;
-    padding: 0 60px;
   }
 }
-@media only screen and (max-width: 480px) {
-  section .flex-block .right-box .more-news-content {
-    padding: 0 25px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content {
-    padding: 0 16px;
-  }
-}
-section .flex-block .right-box .more-news-content .top-box {
+.first-section .container .flex-block .more-news-content .top-box {
   display: flex;
   justify-content: space-between;
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .top-box {
+  .first-section .container .flex-block .more-news-content .top-box {
     align-items: center;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .top-box h2 {
+  .first-section .container .flex-block .more-news-content .top-box h2 {
     font-size: 22px !important;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon {
+  .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon {
     font-size: 14px !important;
   }
 }
-section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .more-news-content .underline {
   background-color: #EBEDED;
   margin: 35px 0 35px 0;
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .underline {
+  .first-section .container .flex-block .more-news-content .underline {
     margin: 30px 0 30px 0;
   }
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block .right-box .more-news-content .bottom-box {
+  .first-section .container .flex-block .more-news-content .bottom-box {
     display: flex;
     justify-content: space-between;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .right-box .more-news-content .bottom-box {
+  .first-section .container .flex-block .more-news-content .bottom-box {
     flex-direction: column;
   }
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box {
     max-width: 300px;
   }
 }
 @media only screen and (max-width: 768px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box {
     max-width: 280px;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box {
     max-width: 350px;
   }
 }
-section .flex-block .right-box .more-news-content .bottom-box .article-box:first-child {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box:first-child {
   margin-bottom: 40px;
 }
 @media only screen and (max-width: 900px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box:first-child {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box:first-child {
     margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 480px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box:first-child {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box:first-child {
     margin-bottom: 40px;
   }
 }
-section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
+@media only screen and (max-width: 320px) {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box:first-child {
+    margin-bottom: 30px;
+  }
+}
+.first-section .container .flex-block .more-news-content .bottom-box .article-box h5 {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #FA6980;
@@ -1001,16 +1021,16 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
   line-height: 20px;
 }
 @media only screen and (max-width: 768px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box h5 {
     text-transform: uppercase;
   }
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box h6 {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box h5 {
     font-size: 15px;
   }
 }
-section .flex-block .right-box .more-news-content .bottom-box .article-box h5 {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box h6 {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -1020,12 +1040,12 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box h5 {
   margin-top: 10px;
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box h5 {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box h6 {
     font-size: 15px;
     margin-top: 5px;
   }
 }
-section .flex-block .right-box .more-news-content .bottom-box .article-box p {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
@@ -1034,18 +1054,18 @@ section .flex-block .right-box .more-news-content .bottom-box .article-box p {
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 320px) {
-  section .flex-block .right-box .more-news-content .bottom-box .article-box p {
+  .first-section .container .flex-block .more-news-content .bottom-box .article-box p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 5px;
   }
 }
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container, .first-section .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -1060,14 +1080,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.bg-color .container .horizontal-block h2, section .flex-block .right-box .more-news-content .top-box h2 {
+.bg-color .container .horizontal-block h2, .first-section .container .flex-block .more-news-content .top-box h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -1076,33 +1096,33 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   line-height: 20px;
 }
 
-.bg-color .container .horizontal-block .icons-box .arrow-icon, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon {
+.bg-color .container .horizontal-block .icons-box .arrow-icon, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon {
   font-size: 15px;
 }
-.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child {
+.bg-color .container .horizontal-block .icons-box .arrow-icon:first-child, .first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time {
+.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -1113,7 +1133,7 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -1307,12 +1327,12 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
     font-size: 13px;
   }
 }
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .first-section .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -1327,14 +1347,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -1343,33 +1363,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time {
+.bg-color .container .wrapper-block .article-box div .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -1380,7 +1400,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -1763,12 +1783,12 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   bottom: 0;
 }
 
-section .container, .add-padd-bott .container, section .address-block, footer .container, .bg-color .container {
+section .container, .add-padd-bott .container, section .address-block, footer .container, .first-section .container, .bg-color .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -1783,14 +1803,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -1799,33 +1819,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
+.bg-color .container .wrapper-block .article-box div .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -1836,7 +1856,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -2110,12 +2130,12 @@ footer .container .flex-block .right-box .social-icons a .fa-earth-americas:hove
   color: #FA6980;
 }
 
-section .container, .add-padd-bott .container, section .address-block, .bg-color .container, footer .container {
+section .container, .add-padd-bott .container, section .address-block, .first-section .container, .bg-color .container, footer .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -2130,14 +2150,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -2146,33 +2166,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
+.bg-color .container .wrapper-block .article-box div .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -2183,7 +2203,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -2306,12 +2326,12 @@ section .address-block .filter-box .filter {
   }
 }
 
-section .container, .add-padd-bott .container, .bg-color .container, footer .container, section .address-block {
+section .container, .add-padd-bott .container, .first-section .container, .bg-color .container, footer .container, section .address-block {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -2326,14 +2346,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
+.bg-color .container .common-block .right-box .form, .bg-color .container .common-block .left-box .text-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -2342,33 +2362,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
+.bg-color .container .wrapper-block .article-box div .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-.bg-color .container .common-block .right-box .form .search-btn, section .flex-block .left-box .world-news-content .learn-more {
+.bg-color .container .common-block .right-box .form .search-btn, .first-section .container .flex-block .world-news-content .learn-more {
   position: relative;
   width: 134px;
   height: 40px;
@@ -2379,7 +2399,7 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .search-btn:hover, section .flex-block .left-box .world-news-content .learn-more:hover {
+.bg-color .container .common-block .right-box .form .search-btn:hover, .first-section .container .flex-block .world-news-content .learn-more:hover {
   background-color: #ff435f;
 }
 
@@ -2649,12 +2669,12 @@ section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-ico
   }
 }
 
-section .container, .add-padd-bott .container, .bg-color .container, footer .container, section .address-block {
+section .container, .add-padd-bott .container, .first-section .container, .bg-color .container, footer .container, section .address-block {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -2669,14 +2689,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
+.bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -2685,33 +2705,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time, section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
+.bg-color .container .wrapper-block .article-box div .time, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time {
   display: flex;
   align-items: center;
 }
 
-.bg-color .container .wrapper-block .article-box div .time .bx-time-five, section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
+.bg-color .container .wrapper-block .article-box div .time .bx-time-five, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-.bg-color .container .wrapper-block .article-box div .time span, section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
+.bg-color .container .wrapper-block .article-box div .time span, .first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-section .flex-block .left-box .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
+.first-section .container .flex-block .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
   position: relative;
   width: 134px;
   height: 40px;
@@ -2722,7 +2742,7 @@ section .flex-block .left-box .world-news-content .learn-more, .bg-color .contai
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
+.first-section .container .flex-block .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
   background-color: #ff435f;
 }
 
@@ -2873,12 +2893,12 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
 .bg-color .container .wrapper-block .article-box div .time {
   margin-left: 0;
 }
-section .container, .add-padd-bott .container, .bg-color .container, footer .container, section .address-block {
+section .container, .add-padd-bott .container, .first-section .container, .bg-color .container, footer .container, section .address-block {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -2893,14 +2913,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
+.bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -2909,33 +2929,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bg-color .container .wrapper-block .article-box div .time {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bg-color .container .wrapper-block .article-box div .time {
   display: flex;
   align-items: center;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bg-color .container .wrapper-block .article-box div .time .bx-time-five {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bg-color .container .wrapper-block .article-box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bg-color .container .wrapper-block .article-box div .time span {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bg-color .container .wrapper-block .article-box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-section .flex-block .left-box .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
+.first-section .container .flex-block .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
   position: relative;
   width: 134px;
   height: 40px;
@@ -2946,7 +2966,7 @@ section .flex-block .left-box .world-news-content .learn-more, .bg-color .contai
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
+.first-section .container .flex-block .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
   background-color: #ff435f;
 }
 
@@ -3127,12 +3147,12 @@ section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .
   margin: 0 3px;
 }
 
-section .container, .bg-color .container, footer .container, section .address-block, .add-padd-bott .container {
+section .container, .first-section .container, .bg-color .container, footer .container, section .address-block, .add-padd-bott .container {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-section .flex-block .left-box .world-news-content h2::after, section .flex-block .right-box .more-news-content .underline {
+.first-section .container .flex-block .world-news-content h2::after, .first-section .container .flex-block .more-news-content .underline {
   content: "";
   display: block;
   width: 100%;
@@ -3147,14 +3167,14 @@ section .flex-block .left-box .world-news-content h2::after, section .flex-block
   border-radius: 2px;
 }
 
-section .flex-block .left-box .world-news-content, section .flex-block .right-box .more-news-content, .bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
+.bottom-padd .container .flex-block-2 .right-vertical-box .box:nth-child(2), .bg-color .container .common-block .left-box .text-content, .bg-color .container .common-block .right-box .form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section .flex-block .right-box .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
+.first-section .container .flex-block .more-news-content .top-box h2, .bg-color .container .horizontal-block h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #202124;
@@ -3163,33 +3183,33 @@ section .flex-block .right-box .more-news-content .top-box h2, .bg-color .contai
   line-height: 20px;
 }
 
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon, .bg-color .container .horizontal-block .icons-box .arrow-icon {
   font-size: 15px;
 }
-section .flex-block .right-box .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
+.first-section .container .flex-block .more-news-content .top-box .icons-box .arrow-icon:first-child, .bg-color .container .horizontal-block .icons-box .arrow-icon:first-child {
   color: #707070;
   margin-right: 40px;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bg-color .container .wrapper-block .article-box div .time {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time, .bg-color .container .wrapper-block .article-box div .time {
   display: flex;
   align-items: center;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bg-color .container .wrapper-block .article-box div .time .bx-time-five {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time .bx-time-five, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time .bx-time-five, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time .bx-time-five, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time .bx-time-five, .bg-color .container .wrapper-block .article-box div .time .bx-time-five {
   font-size: 17px;
   color: #A6ADB4;
   margin-right: 10px;
 }
 
-section .flex-block .right-box .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bg-color .container .wrapper-block .article-box div .time span {
+.first-section .container .flex-block .more-news-content .bottom-box .article-box .time span, .bg-color .container .flex-block-1 .image-and-info .white-box .info-box .time span, .bottom-padd .container .flex-block-2 .left-vertical-box .image-box .img-info .time span, .bottom-padd .container .flex-block-2 .right-vertical-box .box div .time span, .bg-color .container .wrapper-block .article-box div .time span {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: none;
 }
 
-section .flex-block .left-box .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
+.first-section .container .flex-block .world-news-content .learn-more, .bg-color .container .common-block .right-box .form .search-btn {
   position: relative;
   width: 134px;
   height: 40px;
@@ -3200,7 +3220,7 @@ section .flex-block .left-box .world-news-content .learn-more, .bg-color .contai
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
-section .flex-block .left-box .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
+.first-section .container .flex-block .world-news-content .learn-more:hover, .bg-color .container .common-block .right-box .form .search-btn:hover {
   background-color: #ff435f;
 }
 
