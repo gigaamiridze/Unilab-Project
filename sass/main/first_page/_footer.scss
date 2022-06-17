@@ -60,7 +60,9 @@ footer {
             @include display(flex);
             flex-direction: column;
             &:first-child {
-              display: none;
+              @include responsive(phone-port-md) {
+                display: none;
+              }
             }
             &:nth-child(2) {
               margin: 0 40px;

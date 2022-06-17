@@ -1962,8 +1962,10 @@ footer .container .flex-block .left-box .links-box .links {
   display: flex;
   flex-direction: column;
 }
-footer .container .flex-block .left-box .links-box .links:first-child {
-  display: none;
+@media only screen and (max-width: 380px) {
+  footer .container .flex-block .left-box .links-box .links:first-child {
+    display: none;
+  }
 }
 footer .container .flex-block .left-box .links-box .links:nth-child(2) {
   margin: 0 40px;
