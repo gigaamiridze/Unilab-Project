@@ -1,2 +1,5 @@
-### Unilab Project
-First Stage
+### Unilab First Stage Project
+
+ - **Fetched Store API-ის სანახავად ნავიგაციიდან უნდა აირჩიო `PRODUCT` ლინკი.**
+ - **Burger Menu იხურება ნავიგაციის ნებისმიერ ლინკზე დაჭერის შემთხვევაში.**
+ - **მობილურის რეზოლუციაზე Header-ში გამოჩენილი საათი აჩვენებს მიმდინარე დროს.**
