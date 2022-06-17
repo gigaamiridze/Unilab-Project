@@ -2616,9 +2616,12 @@ section .container, .add-padd-bott .container, .first-section .container, .bg-co
   font-family: "Roboto", sans-serif;
   color: #A6ADB4;
   text-transform: capitalize;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
-.bg-color .container .common-block .right-box .form .form-field:last-child {
-  cursor: text;
+.bg-color .container .common-block .right-box .form .form-field:hover, .bg-color .container .common-block .right-box .form .form-field:focus {
+  border-color: #A6ADB4;
 }
 @media only screen and (max-width: 768px) {
   .bg-color .container .common-block .right-box .form .form-field {
@@ -2630,6 +2633,9 @@ section .container, .add-padd-bott .container, .first-section .container, .bg-co
     height: 37px;
     margin-bottom: 25px;
   }
+}
+.bg-color .container .common-block .right-box .form .cursor-text {
+  cursor: text;
 }
 .bg-color .container .common-block .right-box .form .search-btn {
   cursor: pointer;
