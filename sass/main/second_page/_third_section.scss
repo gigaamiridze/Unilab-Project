@@ -28,7 +28,7 @@
         flex-direction: column;
       }
       .avatar-box {
-        max-width: 330px;
+        max-width: 360px;
         width: 100%;
         @include responsive(tablet-lg) {
           max-width: 320px;
@@ -69,18 +69,19 @@
           @include text-property(14px, $roboto, $grey3, none);
           font-weight: $regular;
           line-height: 26px;
-          width: 310px;
+          max-width: 360px;
+          width: 100%;
           @include responsive(tablet-lg) {
-            width: 350px;
+            max-width: 350px;
           }
           @include responsive(tablet) {
-            width: 300px;
+            max-width: 300px;
           }
           @include responsive(phone-land-lg) {
-            width: 280px;
+            max-width: 280px;
           }
           @include responsive(phone-land-md) {
-            width: 100%;
+            max-width: 100%;
             margin-bottom: 15px;
           }
           @include responsive(phone-port-sm) {

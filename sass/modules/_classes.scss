@@ -3,7 +3,7 @@
 @import "../main/breakpoints";
 
 %container {
-  max-width: 1050px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -37,6 +37,7 @@
 
 %arrowIcon {
   font-size: 15px;
+  cursor: pointer;
   &:first-child {
     color: #707070;
     margin-right: 40px;

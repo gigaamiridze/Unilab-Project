@@ -22,7 +22,7 @@
     height: 124vh;
   }
   .nature-img {
-    @include size(700px, 100%, 100%);
+    @include size(770px, 100%, 100%);
     object-fit: cover;
     filter: brightness(80%);
     position: absolute;

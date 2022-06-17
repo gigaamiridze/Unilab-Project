@@ -29,7 +29,7 @@
           margin-right: 0;
         }
         .image-box {
-          max-width: 720px;
+          max-width: 760px;
           width: 100%;
           position: relative;
           @include responsive(tablet-lg) {
@@ -170,7 +170,7 @@
         }
       }
       .right-vertical-box {
-        max-width: 320px;
+        max-width: 360px;
         width: 100%;
         position: relative;
         @include responsive(desktop) {

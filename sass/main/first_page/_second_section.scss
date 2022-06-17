@@ -50,7 +50,7 @@
         flex-direction: column;
       }
       .image-and-info {
-        max-width: 350px;
+        max-width: 374px;
         width: 100%;
         @include responsive(phone-land-sm) {
           max-width: 100%;
@@ -99,7 +99,7 @@
             padding: 0 20px;
           }
           .info-box {
-            max-width: 270px;
+            max-width: 280px;
             width: 100%;
             padding: 40px 0;
             @include responsive(phone-land-md) {
